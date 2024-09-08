@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "userwebs",
+  "info": {
+    "singularName": "userweb",
+    "pluralName": "userwebs",
+    "displayName": "Userweb"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "username": {
+      "type": "string"
+    },
+    "password": {
+      "type": "string"
+    }
+  }
+}

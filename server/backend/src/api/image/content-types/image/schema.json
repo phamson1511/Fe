@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "images",
+  "info": {
+    "singularName": "image",
+    "pluralName": "images",
+    "displayName": "Image",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Type_of_image": {
+      "type": "enumeration",
+      "enum": [
+        "background",
+        "left_image",
+        "right_image",
+        "image1",
+        "image2",
+        "image3",
+        "footer_image"
+      ]
+    }
+  }
+}

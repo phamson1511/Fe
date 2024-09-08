@@ -1,0 +1,17 @@
+GET http://localhost:1337/api/userwebs
+Content-Type: application/json
+Authorization:Bearer e761cfe95326b7a132ba6930924bbc81fd2b921192a2df8568526937aff3070682bcec78daa20328865b3dd885548dd8e632afb9c304005cf43b3a7f25ce2e514b0398273c6abcfb729b4e0e89dc21c4593c8913ba6ed5fe9a4cfd94c5a141dfe869504bdcfeb749ee286bc83df283a2f3a20cc6581f0a9e4bb6d16d3800d928
+
+
+###
+POST http://localhost:1337/api/userwebs
+Content-Type: application/json
+
+{
+    "data": {
+        "username" : "khai",
+        "password" : "12345"
+    }
+}
+
+
